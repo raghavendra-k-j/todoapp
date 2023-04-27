@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Todo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="fontFamily">@font/main_font</item>
+        <item name="android:fontFamily">@font/main_font</item>
+    </style>
+
+    <style name="Splash.Theme.Todo" parent="Base.Theme.Todo">
+        <item name="android:windowBackground">@drawable/bg_splash_screen</item>
+    </style>
+
+    <style name="Theme.Todo" parent="Base.Theme.Todo" />
+</resources>

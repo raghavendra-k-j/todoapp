@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MainToolBar" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/main_font_bold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="MainTaskListChooserButton" parent="Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/btn_li_task_actions</item>
+        <item name="android:minHeight">32dp</item>
+    </style>
+
+    <style name="liTaskButtons">
+        <item name="android:minHeight">24dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:drawable">@drawable/btn_li_task_actions</item>
+        <item name="android:minWidth">24dp</item>
+        <item name="android:background">@drawable/btn_li_task_actions</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textColor">@color/text_medium</item>
+    </style>
+
+</resources>
